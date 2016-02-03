@@ -5,7 +5,7 @@ Interfaces Grove PIR Motion Sensor with MSP430FR5969 Launchpad
 
 * LED will be turned on after detecting Raising Edge interrupt from Sensor and will be switched off by WDT.
 
-* The timeperiod can be controlled by configuring WDT in WDTInitialisation.c
+* The LED on period can be controlled by configuring WDT in WDTInitialisation.c
 
 * Sensor gives 3.5V output(Logic 1) if Vcc is 5V. Below 5V, sensor is behaving erratically. Make sure you give 5V at Vcc pin
 
